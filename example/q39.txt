@@ -1,0 +1,17 @@
+39. What are the rules of method overriding in Dart?
+
+
+--> same method name and same parameters
+
+--> different class (child class)
+
+-->The argument list should be the same as in the method present in the superclass.
+
+-->We cannot override a method if it is declared static or final.
+
+-->If we can't inherit a method, we can't override it.
+
+
+
+
+

@@ -1,0 +1,19 @@
+31. What happens if the parent and the child class have a field with
+same identifier?
+
+--> If both the parent and the child class have a field with the same identifier in Dart,
+the child class field will hide (or shadow) the parent class field. This means that when you access
+the field in an instance of the child class, you will be working with the child class's field,
+not the parent class's field. The parent class's field will be effectively hidden within
+the scope of the child class
+
+B16. Are constructors and initializers also inherited to
+sub_classes?
+
+-->  Constructors and initializers are not inherited by default in Dart.
+Each class, including subclasses, must define its own constructors. However,
+Dart provides a way to call the constructor of the superclass using the super
+keyword in the subclass constructor. This allows you to reuse the initialization
+logic of the superclass constructor in the subclass constructor.
+
+

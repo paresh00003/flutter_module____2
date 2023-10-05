@@ -1,0 +1,7 @@
+34. Can a class extend by itself in Dart?
+
+--> No, a class cannot extend itself in Dart, or in most object-oriented programming languages.
+Inheritance is a relationship between different classes, where a subclass extends or inherits
+from a superclass. A class cannot be its own superclass or subclass. Attempting to create a
+circular inheritance hierarchy where a class extends itself would lead to a logical contradiction
+and is not allowed.
